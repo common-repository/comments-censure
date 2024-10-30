@@ -1,0 +1,52 @@
+.w1{width:1%;}.w2{width:2%;}.w3{width:3%;}.w5{width:4%;}.w5{width:5%;}.w6{width:6%;}.w7{width:7%;}.w8{width:8%;}.w9{width:9%;}.w10{width:10%;}.w11{width:11%;}.w12{width:12%;}.w13{width:13%;}.w14{width:14%;}.w15{width:15%;}.w16{width:16%;}.w17{width:17%;}.w18{width:19%;}.w20{width:20%;}.w21{width:21%;}.w22{width:22%;}.w23{width:23%;}.w24{width:24%;}.w25{width:25%;}.w26{width:26%;}.w27{width:27%;}.w28{width:28%;}.w29{width:29%;}.w30{width:30%;}.w31{width:31%;}.w32{width:32%;}.w33{width:33%;}.w34{width:34%;}.w35{width:35%;}.w36{width:36%;}.w37{width:37%;}.w38{width:38%;}.w39{width:39%;}.w40{width:40%;}.w41{width:41%;}.w42{width:42%;}.w43{width:43%;}.w44{width:44%;}.w45{width:45%;}.w46{width:46%;}.w47{width:47%;}.w48{width:48%;}.w49{width:49%;}.w50{width:50%;}.w51{width:51%;}.w52{width:52%;}.w53{width:53%;}.w54{width:54%;}.w55{width:55%;}.w56{width:56%;}.w57{width:57%;}.w58{width:58%;}.w59{width:59%;}.w60{width:60%;}.w61{width:61%;}.w62{width:62%;}.w63{width:63%;}.w64{width:64%;}.w65{width:65%;}.w66{width:66%;}.w67{width:67%;}.w68{width:68%;}.w69{width:69%;}.w70{width:70%;}.w71{width:71%;}.w72{width:72%;}.w73{width:73%;}.w74{width:74%;}.w75{width:75%;}.w76{width:76%;}.w77{width:77%;}.w78{width:78%;}.w79{width:79%;}.w80{width:80%;}.w81{width:81%;}.w82{width:82%;}.w83{width:83%;}.w84{width:84%;}.w85{width:85%;}.w86{width:86%;}.w87{width:87%;}.w88{width:88%;}.w89{width:89%;}.w90{width:90%;}.w91{width:91%;}.w92{width:92%;}.w93{width:93%;}.w94{width:94%;}.w95{width:95%;}.w96{width:96%;}.w97{width:97%;}.w98{width:98%;}.w99{width:99%;}.w100{width:100%;}
+
+.cc-options {box-sizing: border-box;}
+.cc-options .nav-tab span {display: inline-block; vertical-align: middle;}
+.cc-options .tab-content {border-left: 1px solid #ccc;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;padding: 5px 10px;}
+.cc-options .cc-pagination {padding: 10px 7px; margin: 10px 0;}
+.cc-options .cc-pages {display: inline-block; float: right; padding: 3px 0; max-width: 75%;}
+.cc-options .cc-page, .cc-options .cc-page.cc-page-current {border: 1px solid #ccc; background: #e5e5e5; color: #000; cursor: pointer; text-decoration: none; width: 25px; height: 25px; line-height: 25px; display: inline-block; text-align: center; margin: 2px;}
+.cc-options .cc-page.cc-page-current {cursor: initial;}
+.cc-options .cc-page:hover, .cc-options .cc-page.cc-page-current {background: #f1f1f1; border-color: #333;}
+.cc-options .cc-page:active, .cc-options .cc-page:focus {border-color: transparent;}
+.cc-options .cc-words-per-page-wrap {display: inline-block; float: left; padding: 3px 0; max-width: 25%;}
+.cc-options .cc-search-words {display: inline-block;float: left; margin-left: 16px; position: relative;}
+.cc-options .cc-search-words .cc-search-words-input {padding: 4px 7px 4px 62px;}
+.cc-options .cc-search-words .cc-search-words-button {position: absolute; left: 3px; margin-top: 1px; background: #008ec2; display: inline-block; padding: 3px; width: 27px; height: auto; color: #fff; top: 2px; bottom: 4px; margin-bottom: 0;}
+.cc-options .cc-words-wrapper .cc-row:hover {background: #e5e5e5;}
+.cc-options .cc-row {padding: 5px 7px;display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center;}
+.cc-options .cc-col {display: inline-block; vertical-align: middle; text-align: center;}
+.cc-options .cc-search, .cc-options .cc-replace {padding: 5px 8px 5px 40px;}
+.cc-options .cc-add-new {float: right;}
+.cc-options .cc-remove-all {margin-right: 30px; background-color:#FF4040; color:#fff;}
+.cc-options .tab-content table tr:nth-child(2n) {background: #f5f5f5;}
+.cc-options .tab-content table th {font-size: 15px; font-weight:600;}
+.cc-options .cc-btn-import-options, 
+.cc-options #cc-import-options-loading,
+.cc-options .cc-btn-import-words, 
+.cc-options #cc-import-words-loading {margin: 15px 0 0 5px;}
+.cc-options .cc-description {color:#858585; margin:2px 0px; font-weight: normal;}
+.cc-options .cc-note, .cc-options .cc-in-pro {color:#C74A4A;}
+
+.cc-options .cc-disabled {opacity:0.4;}
+.cc-options .cc-hidden {display:none;}
+.cc-options .cc-show {display:block;}
+
+.cc-flex-grow {flex: 1 0 164px;}
+.cc-flex-shrink {flex-shrink: 1;}
+.cc-options .cc-row > div + div {margin-right: 10px;}
+@media screen and (max-width: 500px){
+    .cc-options .cc-row > div {flex: 1 0 100%; margin-bottom: 10px;}
+    .cc-options .cc-row > div + div {margin-right: 0;}
+    .cc-options .cc-row > div > button {width: auto;}
+}
+@media screen and (max-width: 400px){
+    .cc-options .cc-row > div > button {width: 100%;}
+}
+
+/* PRO FEATURES */
+.cc-options .cc-col-replace {display: inline-block; position: relative;}
+.cc-options .globalReplacementWrap {display: inline-block; position: relative;}
+.cc-options .cc-replace-image {cursor: pointer; position: absolute; left: 1px; top: 1px; padding: 6px;}
+.cc-options .cc-in-pro {font-size: 10px; vertical-align: top; margin-right: 2px;}
+.cc-blocked-since, .cc-blocked-until {padding: 5px;}

@@ -1,0 +1,456 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Comments Censure\n"
+"POT-Creation-Date: 2017-03-09 19:39+0400\n"
+"PO-Revision-Date: 2017-03-09 19:39+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cc-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: cc-core.php:82
+msgid "Add default words"
+msgstr ""
+
+#: cc-core.php:83
+msgid "Comments Censure:"
+msgstr ""
+
+#: cc-core.php:114
+msgid "Do you really want remove all search/replace combinations"
+msgstr ""
+
+#: cc-core.php:115
+msgid "Do you really want import new options"
+msgstr ""
+
+#: cc-core.php:117
+msgid "Options can not be empty!"
+msgstr ""
+
+#: cc-core.php:118
+msgid "Do you really want import new words"
+msgstr ""
+
+#: cc-core.php:120
+msgid "Words can not be empty!"
+msgstr ""
+
+#: cc-core.php:122
+msgid "Search text cannot be empty!"
+msgstr ""
+
+#: cc-core.php:123
+msgid "No result"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: cc-core.php:138 options/html-options.php:31
+msgid "Comments Censure"
+msgstr ""
+
+#: cc-core.php:143
+msgid "Settings"
+msgstr ""
+
+#: options/cc-options.php:20
+msgid "Hacker?"
+msgstr ""
+
+#: options/cc-options.php:30 options/cc-optionsSerialized.php:32
+#: options/cc-optionsSerialized.php:45 options/html-options.php:28
+msgid "[censored]"
+msgstr ""
+
+#: options/cc-options.php:33 options/cc-optionsSerialized.php:35
+#: options/cc-optionsSerialized.php:48 options/layouts/phrases.php:14
+#: utils/cc-helper.php:246
+msgid "New unwanted comment"
+msgstr ""
+
+#: options/cc-options.php:34 options/cc-optionsSerialized.php:36
+#: options/cc-optionsSerialized.php:49 options/layouts/phrases.php:24
+#: utils/cc-helper.php:247
+#, php-format
+msgid ""
+"New unwanted comment was posted, to moderate please <a href=\"%s\" target="
+"\"_blank\">Click here</a>"
+msgstr ""
+
+#: options/html-options.php:14 utils/cc-helper.php:163
+msgid "Search"
+msgstr ""
+
+#: options/html-options.php:15 utils/cc-helper.php:165
+msgid "Replace (Leave empty to autogenerate)"
+msgstr ""
+
+#: options/html-options.php:16 utils/cc-helper.php:168
+msgid "Remove"
+msgstr ""
+
+#: options/html-options.php:17
+msgid "Replace with image"
+msgstr ""
+
+#: options/html-options.php:18
+msgid "(PRO version)"
+msgstr ""
+
+#: options/html-options.php:19
+msgid "TXT file should contain words separated by single line-break."
+msgstr ""
+
+#: options/html-options.php:20
+msgid "Leave empty or set 0 for disabling"
+msgstr ""
+
+#: options/html-options.php:21
+msgid ""
+"Comma separated email addresses to get notifications if unwanted comment was "
+"detected"
+msgstr ""
+
+#: options/html-options.php:22
+msgid "Note* this option does not disable wordpress' new comment notifications"
+msgstr ""
+
+#: options/html-options.php:35
+msgid "search"
+msgstr ""
+
+#: options/html-options.php:50
+msgid "Words"
+msgstr ""
+
+#: options/html-options.php:54
+msgid "Main Settings"
+msgstr ""
+
+#: options/html-options.php:58
+msgid "Phrases"
+msgstr ""
+
+#: options/html-options.php:62
+msgid "Export"
+msgstr ""
+
+#: options/html-options.php:66
+msgid "Import"
+msgstr ""
+
+#: options/html-options.php:87
+msgid "Reset Options"
+msgstr ""
+
+#: options/html-options.php:88
+msgid "Save Changes"
+msgstr ""
+
+#: options/layouts/export.php:21
+msgid "Export current options"
+msgstr ""
+
+#: options/layouts/export.php:25
+msgid "Export current words"
+msgstr ""
+
+#: options/layouts/import.php:10
+msgid "Import options"
+msgstr ""
+
+#: options/layouts/import.php:14
+msgid "Import Options"
+msgstr ""
+
+#: options/layouts/import.php:20
+msgid "Import words"
+msgstr ""
+
+#: options/layouts/import.php:24
+msgid "Import Words"
+msgstr ""
+
+#: options/layouts/phrases.php:11
+msgid "Email subject"
+msgstr ""
+
+#: options/layouts/phrases.php:19
+msgid "Email content"
+msgstr ""
+
+#: options/layouts/phrases.php:20
+#, php-format
+msgid ""
+"Note* Do not change/remove \"%s\", this will be used for getting comment url"
+msgstr ""
+
+#: options/layouts/phrases.php:21
+msgid ""
+"Note* comment url and other HTML tags will be stripped if you change mail "
+"content type to text/plain"
+msgstr ""
+
+#: options/layouts/phrases.php:29
+msgid "Uncensored word detected"
+msgstr ""
+
+#: options/layouts/phrases.php:30
+#, php-format
+msgid ""
+"Note* Do not change/remove \"%s\", this will be used for getting uncensored "
+"word"
+msgstr ""
+
+#: options/layouts/phrases.php:33
+#, php-format
+msgid "Error: uncensored word detected - %s"
+msgstr ""
+
+#: options/layouts/phrases.php:39
+msgid "External url detected"
+msgstr ""
+
+#: options/layouts/phrases.php:40
+#, php-format
+msgid ""
+"Note* Do not change/remove \"%s\", this will be used for getting external url"
+msgstr ""
+
+#: options/layouts/phrases.php:43
+#, php-format
+msgid "Error: external url detected - %s"
+msgstr ""
+
+#: options/layouts/phrases.php:49
+msgid "Temporarily blocked for posting a comment with uncensored word"
+msgstr ""
+
+#: options/layouts/phrases.php:50 options/layouts/phrases.php:60
+#, php-format
+msgid ""
+"Note* Do not change/remove \"%d\", this will be used for getting expiration "
+"time dynamically"
+msgstr ""
+
+#: options/layouts/phrases.php:53
+#, php-format
+msgid ""
+"You have been blocked for posting a comment with uncensored word until %s"
+msgstr ""
+
+#: options/layouts/phrases.php:59
+msgid "Temporarily blocked for posting a comment with external url"
+msgstr ""
+
+#: options/layouts/phrases.php:63
+#, php-format
+msgid "You have been blocked for posting a comment with external url until %s"
+msgstr ""
+
+#: options/layouts/phrases.php:69
+msgid "IP blocked"
+msgstr ""
+
+#: options/layouts/phrases.php:72
+msgid "Your IP address has been blocked for posting a comment"
+msgstr ""
+
+#: options/layouts/phrases.php:78
+msgid "Email blocked"
+msgstr ""
+
+#: options/layouts/phrases.php:81
+msgid "Your email address has been blocked for posting a comment"
+msgstr ""
+
+#: options/layouts/settings.php:11
+msgid "Import censored words from .txt file"
+msgstr ""
+
+#: options/layouts/settings.php:13
+msgid ""
+"Note* the file you are going to import must be UTF-8 encoding, otherwise may "
+"be problems during the import"
+msgstr ""
+
+#: options/layouts/settings.php:18
+msgid "Use global replacement for all censored words"
+msgstr ""
+
+#: options/layouts/settings.php:21
+msgid "Yes"
+msgstr ""
+
+#: options/layouts/settings.php:22
+msgid "No (custom replacements)"
+msgstr ""
+
+#: options/layouts/settings.php:33
+msgid "Image replacement sizes"
+msgstr ""
+
+#: options/layouts/settings.php:34
+msgid "Image replacement width and height"
+msgstr ""
+
+#: options/layouts/settings.php:38
+msgid "width in pixels"
+msgstr ""
+
+#: options/layouts/settings.php:42
+msgid "height in pixels"
+msgstr ""
+
+#: options/layouts/settings.php:49
+msgid "Filter emails"
+msgstr ""
+
+#: options/layouts/settings.php:50
+msgid "Filter email content before sending"
+msgstr ""
+
+#: options/layouts/settings.php:56
+msgid "Select an action when uncensored word detected in comment"
+msgstr ""
+
+#: options/layouts/settings.php:62 options/layouts/settings.php:92
+msgid "Ignore"
+msgstr ""
+
+#: options/layouts/settings.php:67 options/layouts/settings.php:97
+msgid "Pre-submit validation and restriction"
+msgstr ""
+
+#: options/layouts/settings.php:71 options/layouts/settings.php:101
+msgid "Pending moderation"
+msgstr ""
+
+#: options/layouts/settings.php:75 options/layouts/settings.php:105
+msgid "Set as Spam"
+msgstr ""
+
+#: options/layouts/settings.php:79 options/layouts/settings.php:109
+msgid "Move to Trashed"
+msgstr ""
+
+#: options/layouts/settings.php:86
+msgid "Select an action when external URL detected in comment"
+msgstr ""
+
+#: options/layouts/settings.php:116
+msgid "Whitelisted external domains"
+msgstr ""
+
+#: options/layouts/settings.php:117
+msgid "Comma separated domain names"
+msgstr ""
+
+#: options/layouts/settings.php:118
+msgid "1) Note* write only domain names without - www."
+msgstr ""
+
+#: options/layouts/settings.php:119
+msgid "2) Note* this will cover most of all cases (mostly recommended)"
+msgstr ""
+
+#: options/layouts/settings.php:128
+msgid "Block user if comment contains uncensored word"
+msgstr ""
+
+#: options/layouts/settings.php:133 options/layouts/settings.php:147
+msgid "for"
+msgstr ""
+
+#: options/layouts/settings.php:135 options/layouts/settings.php:149
+msgid "days"
+msgstr ""
+
+#: options/layouts/settings.php:142
+msgid "Block user if comment contains external url"
+msgstr ""
+
+#: options/layouts/settings.php:156
+msgid "Blocked ip addresses"
+msgstr ""
+
+#: options/layouts/settings.php:157
+msgid "Comma separated IP addresses for hard blocking"
+msgstr ""
+
+#: options/layouts/settings.php:158
+msgid "Note* in order to block IP subnet, use pattern 127.0.*"
+msgstr ""
+
+#: options/layouts/settings.php:167
+msgid "Blocked email addresses"
+msgstr ""
+
+#: options/layouts/settings.php:168
+msgid "Comma separated emails addresses for hard blocking"
+msgstr ""
+
+#: options/layouts/settings.php:169
+msgid "Note* to block entire domain use pattern *@example.com"
+msgstr ""
+
+#: options/layouts/settings.php:178
+msgid "Email addresses to get notifications"
+msgstr ""
+
+#: options/layouts/words.php:23
+msgid "Words per page"
+msgstr ""
+
+#: options/layouts/words.php:53
+msgid "Add New"
+msgstr ""
+
+#: options/layouts/words.php:59
+msgid "Remove All Words"
+msgstr ""
+
+#: utils/cc-helper.php:96
+msgid "Option not imported"
+msgstr ""
+
+#: utils/cc-helper.php:101
+msgid "Option imported successfully"
+msgstr ""
+
+#: utils/cc-helper.php:109
+msgid "Words not imported"
+msgstr ""
+
+#: utils/cc-helper.php:122
+msgid "Words imported successfully"
+msgstr ""
+
+#: utils/cc-helper.php:166
+msgid "Replace with image(PRO version)"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The plugin filters uncensored comments before showing them to end-users."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "gVectors Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://gvectors.com/"
+msgstr ""
